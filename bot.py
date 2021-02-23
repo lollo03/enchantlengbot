@@ -124,7 +124,7 @@ def translaterev(mess):
 # context. Error handlers also receive the raised TelegramError object in error.
 def start(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /start is issued."""
-    update.message.reply_text('Hi! Use this bot to translate to and from minecraft enchanting table. U can use me in-line, just type @enchantlengbot before wirting a message. U can also send a me a pvt message. Made by @lolloandr')
+    update.message.reply_text('Hi! Use this bot to translate to and from minecraft enchanting table. U can use me in-line, just type @enchantlengbot before wirting a message. \nU can also send a me a pvt message. \nMade by @lolloandr, https://github.com/lollo03/enchantlengbot')
 
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
